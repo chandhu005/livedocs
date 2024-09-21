@@ -28,7 +28,6 @@ import {
 } from '@lexical/rich-text';
 import { $setBlocksType } from '@lexical/selection';
 import { $findMatchingParent } from '@lexical/utils';
-import React from 'react';
 import {
   useCallback,
   useEffect,
