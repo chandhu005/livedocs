@@ -1,9 +1,10 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import AddDocumentBtn from '@/components/AddDocumentBtn';
 import { DeleteModal } from '@/components/DeleteModel';
 import Header from '@/components/Header'
 import Notifications from '@/components/Notifications';
 // import Notifications from '@/components/Notifications';
-import { Button } from '@/components/ui/button'
+
 import { getDocuments } from '@/lib/actions/rooms.action';
 import { dateConverter } from '@/lib/utils';
 import { SignedIn, UserButton } from '@clerk/nextjs'
